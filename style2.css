@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: auto;
+    height: 90px;
+    background-color: rgb(163, 5, 121);
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 80px;
+    margin-left: 40px;
+
+}
+.menu-sections ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;;
+
+}
+.menu-sections ul li{
+    list-style: none;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 10px;
+    
+}
+.menu-sections ul li:hover{
+    border-bottom: 1px solid white;
+}
+.AboutUs{
+    width: auto;
+    height: 90px;
+    margin:auto;
+    text-align: center;
+}
+.heading{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    
+}
+.about-boxes{
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    margin: auto;
+}
+.About1{
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.footer{
+    width: auto;
+    height: 50px;
+    background-color: rgb(234, 175, 232);
+    color: black;
+    padding-top: 20px 0;
+    bottom: 0%;
+    position: fixed;
+    justify-content: center;
+    left: 0%;
+    right: 0%;
+}

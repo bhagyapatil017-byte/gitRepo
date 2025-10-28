@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: auto;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 90px;
+    margin-left: 100px;
+
+}
+.menu-sections ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;
+
+}
+.menu-sections ul li{
+    list-style: none;
+    font-size: 25px;
+}
+.menu-sections ul li:hover{
+    border-bottom: 1px solid red;
+    
+}
